@@ -1,9 +1,10 @@
 import "./App.css";
+import FormCadastro from "./components/FormCadastro";
 
 function App() {
   return (
     <div className="App">
-      <button></button>
+      <FormCadastro></FormCadastro>
     </div>
   );
 }

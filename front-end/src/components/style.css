@@ -1,0 +1,11 @@
+#formCadastro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.formLine {
+  display: flex;
+  flex-direction: row;
+}
