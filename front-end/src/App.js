@@ -1,10 +1,12 @@
 import "./App.css";
-import FormCadastro from "./components/FormCadastro";
+import FormCadastroCliente from "./components/FormCadastroCliente";
+import FormCadastroContato from "./components/FormCadastroContato";
 
 function App() {
   return (
     <div className="App">
-      <FormCadastro></FormCadastro>
+      <FormCadastroCliente></FormCadastroCliente>
+      <FormCadastroContato></FormCadastroContato>
     </div>
   );
 }

@@ -5,7 +5,18 @@
   align-items: center;
 }
 
-.formLine {
+.formContainer {
+  max-width: 300px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
 }
